@@ -1,0 +1,17 @@
+ans = (input("Addition or X: "))
+
+
+if ans == "addition":
+    math = float(input("Enter a number to add: "))
+    math2 = (float(input("Enter another number to add: ")))
+    print(math+math2)
+
+
+elif ans == "x":
+    mathx = float(input("Enter a number to multiply: "))
+    mathx2 = float(input("Enter another number to multiply"))
+    print(float(mathx*mathx2))
+
+
+else:
+    print("Something went wrong.")
